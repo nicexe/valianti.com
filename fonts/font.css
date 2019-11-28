@@ -1,0 +1,10 @@
+@font-face {
+	font-family: 'BankGothicRegular';
+	src: url('./BankGothicRegular.eot');
+	src: local('BankGothicRegular'), url('./BankGothicRegular.woff') format('woff'), url('./BankGothicRegular.ttf') format('truetype');
+}
+
+* {
+	font-family: 'BankGothicRegular' !important;
+	color: white;
+}
