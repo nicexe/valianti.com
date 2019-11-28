@@ -38,3 +38,7 @@ h1 {
 .center {
   text-align:center;
 }
+
+.title {
+  word-spacing: 0.3em;
+}
