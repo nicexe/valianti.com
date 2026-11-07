@@ -60,3 +60,26 @@ h1 {
 .line3 {
   font-size: 0.9em;
 }
+
+/* Short landscape screens: move text to the sides so it doesn't cover the face */
+@media (orientation: landscape) and (max-height: 600px) {
+  .main tr:first-child td {
+    padding-left: 1em;
+  }
+
+  .main tr:first-child .center {
+    text-align: left;
+  }
+
+  .main tr:last-child td {
+    padding-right: 1em;
+  }
+
+  .main tr:last-child .center {
+    text-align: right;
+  }
+
+  .telephone {
+    padding-right: 0;
+  }
+}
