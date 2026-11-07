@@ -46,6 +46,7 @@ h1 {
 
 .telephone {
   padding: 1em;
+  text-decoration: none;
 }
 
 .line1 {
