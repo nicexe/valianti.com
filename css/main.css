@@ -1,5 +1,5 @@
 html {
-  background: url(/img/background.jpg) no-repeat center center fixed;
+  background: #05053a url(/img/background.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -8,6 +8,11 @@ html {
 
 html, body {
   height: 100%;
+}
+
+body {
+  box-sizing: border-box;
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
 }
 
 * {
